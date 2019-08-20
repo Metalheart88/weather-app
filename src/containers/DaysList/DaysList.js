@@ -28,7 +28,7 @@ class DaysList extends Component {
   }
 
   fetchWeatherData = () => {
-    const url = `http://api.openweathermap.org/data/2.5/forecast?q=${
+    const url = `https://api.openweathermap.org/data/2.5/forecast?q=${
       this.state.city
     },${this.state.country}&units=metric&APPID=${apiConfig.openWeatherKey}`;
 
