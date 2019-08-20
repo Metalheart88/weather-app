@@ -1,0 +1,85 @@
+.detailed-weather-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+.detailed-weather-container .owf-5x {
+  font-size: 9em;
+}
+
+.detailed-weather-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.detailed-weather-header-temp {
+  align-self: center;
+  text-align: end;
+}
+
+.detailed-weather-header-temp h2 {
+  margin-bottom: 0;
+}
+
+.detailed-weather-info {
+  text-align: end;
+}
+
+.detailed-weather-info h2 {
+  margin-bottom: 0;
+}
+
+.ant-modal-body {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+.ant-modal-body .card-header-ui {
+  margin: 0;
+}
+
+.ant-modal-body .text-muted {
+  margin: 0;
+}
+
+.ant-modal-content {
+  width: 72% !important;
+  margin: 0 auto !important;
+}
+
+.ant-modal-footer {
+  padding-top: 0 !important;
+  padding-bottom: 24px !important;
+  border: none !important;
+  border-radius: 5px !important;
+  text-align: center !important;
+}
+
+.ant-modal-footer button {
+  background-color: crimson !important;
+  height: 40px !important;
+  width: 220px !important;
+  text-transform: uppercase !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+}
+
+.ant-modal-footer button:hover {
+  background-color: white !important;
+  color: crimson !important;
+}
+
+.ant-modal-header {
+  border: none !important;
+}
+
+.ant-modal-title {
+  text-align: center !important;
+  font-size: 3rem !important;
+  line-height: 1.5 !important;
+}

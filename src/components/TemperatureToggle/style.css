@@ -1,0 +1,14 @@
+.temperature-toggle-container {
+  display: flex;
+  align-self: center;
+}
+.temperature-toggle-container > .ant-switch {
+  align-self: center;
+}
+
+.temperature-unit {
+  padding: 0 7px;
+  align-self: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+}

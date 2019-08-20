@@ -1,13 +1,44 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Roboto" !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://i.imgur.com/yOGZoRZ.jpg);
+  background-position: 0px 0px;
+  background-size: cover;
+  animation: animatedBackground 15s linear infinite;
+  -moz-animation: animatedBackground 15s linear infinite;
+  -webkit-animation: animatedBackground 15s linear infinite;
+  -ms-animation: animatedBackground 15s linear infinite;
+  -o-animation: animatedBackground 15s linear infinite;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.ant-switch-checked {
+  background-color: crimson !important;
+}
+
+.owf {
+  color: crimson;
+}
+
+.Toastify__toast-body {
+  font-family: "Roboto" !important;
+  font-size: 1rem !important;
+}
+
+.Toastify__toast {
+  border-radius: 5px !important;
+}
+
+.Toastify__toast--success {
+  background: #07bc0dc4 !important;
+}
+
+.Toastify__toast--error {
+  background: #e74d3cda !important;
 }
