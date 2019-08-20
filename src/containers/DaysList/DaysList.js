@@ -148,6 +148,7 @@ class DaysList extends Component {
             onSuggestSelect={this.onSuggestSelect}
             location={new google.maps.LatLng(49.895136, -97.13837439999998)}
             radius="20"
+            types={["(cities)"]}
           />
           <TemperatureToggle toggleTemperature={this.toggleTemperature} />
         </div>
